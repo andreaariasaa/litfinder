@@ -1,25 +1,25 @@
 {
-  "name": "events",
+  "name": "Review",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "name": {
+    "Author": {
       "type": "string",
       "required": true
     },
-    "description": {
+    "Content": {
       "type": "string",
       "required": true
     },
-    "address": {
-      "type": "string",
+    "Rating": {
+      "type": "number",
       "required": true
     },
-    "user": {
-      "type": "account",
+    "EventId": {
+      "type": "string",
       "required": true
     }
   },

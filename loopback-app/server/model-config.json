@@ -38,5 +38,13 @@
   "events": {
     "dataSource": "db",
     "public": true
+  },
+  "Review": {
+    "dataSource": "db",
+    "public": true
+  },
+  "account": {
+    "dataSource": "db",
+    "public": true
   }
 }
